@@ -45,9 +45,8 @@
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
-  margin-left: 64px;
   z-index: 1;
-  margin: 0;
+  margin: 0 0 0 64px;;
 }
 
 .header__subtitle {
@@ -61,7 +60,7 @@
   z-index: 1;
   margin: 0;
 }
-.header__subtitle-link {
+.header__link {
   text-decoration: none;
   color: #2f80ed;
 }
@@ -231,11 +230,15 @@
 }
 .section-title_theme_dark {
   color: white;
+  position: relative;
+  z-index: 1;
 }
 
 .section-subtitle_theme_dark {
   color: white;
   margin-bottom: 0;
+  position: relative;
+  z-index: 1;
 }
 
 .table__cell_theme_dark {
