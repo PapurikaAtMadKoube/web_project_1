@@ -1,3 +1,13 @@
+@keyframes rotate_squre {
+  from {
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
+
+
 .page {
   min-width: 1100px;
   /* we don't know how to make mobile versions of websites yet, */
@@ -39,6 +49,7 @@
   position: absolute;
   right: 0;
   top: 64px;
+  transform: rotate(-15deg);
 }
 .header__title {
   width: 730px;
