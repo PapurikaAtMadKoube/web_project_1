@@ -1,0 +1,12 @@
+@keyframes links_transparent {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0.5;
+  }
+}
+
+.links_transparent_active:hover {
+  animation: links_transparent 0.3s linear forwards;
+}
