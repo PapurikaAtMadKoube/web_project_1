@@ -7,6 +7,6 @@
   }
 }
 
-.links_transparent_active:hover {
+.links:hover {
   animation: links_transparent 0.3s linear forwards;
 }
