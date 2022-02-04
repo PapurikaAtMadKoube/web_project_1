@@ -3,6 +3,9 @@
   margin-top: 50px;
   margin-left: 0;
   margin-right: 0;
-
+  margin-bottom: 0;
   /* background-color: azure; */
+  display: flex;
+  column-gap: 20px;
+
 }
