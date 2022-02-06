@@ -1,12 +1,16 @@
-@keyframes links_transparent {
+/* @keyframes links_transparent {
   from {
     opacity: 1;
   }
   to {
     opacity: 0.5;
   }
-}
+} */
 
+.links {
+  opacity: 1;
+  transition-duration: 0.3s;
+}
 .links:hover {
-  animation: links_transparent 0.3s linear forwards;
+  opacity: 0.5;
 }

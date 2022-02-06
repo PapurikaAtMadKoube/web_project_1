@@ -2,7 +2,7 @@
 .cards {
   /* background-color: red; */
   display: flex;
-  justify-content: first baseline;
+  justify-content: baseline;
   flex-wrap: wrap;
   column-gap: 100px;
   max-width: 920px;
